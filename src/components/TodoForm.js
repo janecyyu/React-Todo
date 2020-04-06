@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from 'reactstrap';
 
 class TodoForm extends React.Component {
   constructor() {
@@ -26,16 +27,17 @@ class TodoForm extends React.Component {
 
   render() {
     return (
-      <form>
+      <form className="form">
         <input
           className="add-btn"
           type="text"
           name="todo"
           onChange={this.handleChange}
           value={this.state.taskName}
+          placeholder="add todo here"
         />
-        <button onClick={this.submit}>Add Todo</button>
-        <button className="clear-btn" onClick={this.handleDelete}>Clear Completed</button>
+        <Button color="info" onClick={this.submit}>Add Todo</Button>
+        <Button color="warning" className="clear-btn" onClick={this.handleDelete}>Clear Completed</Button>
       </form>
     );
   }
