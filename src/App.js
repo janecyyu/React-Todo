@@ -60,8 +60,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="header">
-          <h2>Todo Today!🐕 </h2>
-          <h2>Todo Today!🐕 </h2>
+          <h2>Do It Today!🐕 </h2>
         </div>
         <TodoList togoList={this.state.todoList} toggleTodo={this.toggleTodo} />
         <TodoForm addTodo={this.addTodo} removeTodo={this.removeTodo}/>
