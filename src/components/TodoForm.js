@@ -18,8 +18,6 @@ class TodoForm extends React.Component {
     this.setState({taskName:""})
   };
 
-
-
   handleDelete = e => {
     e.preventDefault();
     this.props.removeTodo();
