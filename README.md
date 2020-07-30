@@ -13,4 +13,4 @@ This project is building a stateful class component. It allows users to add thei
 
 ## Deploy
 
-- You can check my deployment [Here].(https://react-todo-j9x5od9yq.now.sh/).
+- You can check my deployment [Here](https://react-todo-j9x5od9yq.now.sh/).(https://react-todo-j9x5od9yq.now.sh/).
