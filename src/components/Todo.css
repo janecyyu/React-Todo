@@ -1,0 +1,37 @@
+.app{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.uncompleted {
+  background-color: #8de4cd;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  width: 400px;
+  padding: 10px;
+}
+
+.completed {
+  background-color: #c4f9eb;
+  color: rgb(113, 112, 112);
+  text-decoration: line-through;
+  text-align: center;
+  margin: 10px;
+  width: 400px;
+  padding: 10px;
+}
+
+.task{
+    margin:0;
+}
+
+.form{
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
